@@ -17,3 +17,18 @@ function multiply(x, y){
 }
 
     console.log (multiply(6, 4))
+
+    
+    let expon = 0
+function power(x, y){
+
+    for (let counter=0; counter<y; counter ++ ) {
+        
+        expon = add(x, expon)
+
+        console.log (add(x, expon))
+        console.log ("expon ", expon)
+
+    }
+}
+    console.log (power(3, 4))
