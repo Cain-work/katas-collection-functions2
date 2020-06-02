@@ -11,14 +11,13 @@ function multiply(x, y) {
 
         number = add(x, number)
 
-       
+
         console.log("number ", number)
     }
-    return number 
+    return number
 }
 
 console.log(multiply(6, 4))
-
 
 
 function power(x, y) {
@@ -27,8 +26,7 @@ function power(x, y) {
     for (let counter = 0; counter < y; counter++) {
 
         expon = multiply(x, expon)
-    
-        
+
         console.log("expon ", expon)
 
     }
@@ -36,3 +34,16 @@ function power(x, y) {
 
 }
 console.log(power(3, 4))
+
+function factorial(c) {
+    let total = 1
+
+    for (let counter = c; counter >= 0; counter --) {
+        console.log(counter)
+        total = multipy(c, total)
+
+        console.log(multiply(4))
+
+    }
+    return total
+}
