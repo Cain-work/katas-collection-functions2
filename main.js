@@ -1,34 +1,38 @@
-function add (x, y){
+function add(x, y) {
     return x + y
 }
 console.log(add(2, 4))
 
-function multiply(x, y){
+function multiply(x, y) {
 
     let number = 0
 
-    for (let counter=0; counter<y; counter++) {
+    for (let counter = 0; counter < y; counter++) {
 
-        number = add(x, number) 
-        
-        console.log (add(x, number))
-        console.log ("number ", number)
+        number = add(x, number)
+
+       
+        console.log("number ", number)
     }
+    return number 
 }
 
-    console.log (multiply(6, 4))
+console.log(multiply(6, 4))
 
+
+
+function power(x, y) {
+    let expon = 1
+
+    for (let counter = 0; counter < y; counter++) {
+
+        expon = multiply(x, expon)
     
-    let expon = 0
-function power(x, y){
-
-    for (let counter=0; counter<y; counter ++ ) {
         
-        expon = add(x, expon)
-
-        console.log (add(x, expon))
-        console.log ("expon ", expon)
+        console.log("expon ", expon)
 
     }
+    return expon
+
 }
-    console.log (power(3, 4))
+console.log(power(3, 4))
